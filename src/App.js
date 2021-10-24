@@ -1,11 +1,9 @@
-import Comment from "./components/hook/custom/Comment";
-import Post from "./components/hook/custom/Post";
+import Task from "./components/task/Task";
 
 function App() {
   return (
     <div>
-      <Comment />
-      <Post />
+      <Task />
     </div>
   );
 }

@@ -4,7 +4,7 @@ const Post = () => {
   const [items, loading] = useFetch('http://jsonplaceholder.typicode.com/posts?_limit=10')
 
   if (loading) {
-    return 'Chargement...'
+    return 'Chargement en cours...'
   }
   
   return (
